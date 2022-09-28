@@ -11,8 +11,6 @@ export default function Auth() {
   const [password, setPassword] = useState('');
   const { type } = useParams();
 
-  console.log(UserContext);
-
   const { user, setUser } = useContext(UserContext);
 
   const submitAuth = async () => {

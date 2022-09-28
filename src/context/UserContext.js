@@ -1,7 +1,6 @@
 import { useState, createContext } from 'react';
 import { getUser } from '../services/auth';
 
-// TODO -- create the user provider!
 const UserContext = createContext();
 
 const UserProvider = ({ children }) => {
